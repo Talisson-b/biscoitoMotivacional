@@ -24,7 +24,7 @@ body {
 }
 
 main {
-  min-height: 60rem;
+  max-height: 55rem;
   background-color: #fff;
   width: min(42.8rem, 90%);
   text-align: center;
