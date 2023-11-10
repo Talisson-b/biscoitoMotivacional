@@ -25,12 +25,13 @@ body {
 
 main {
   max-height: 55rem;
-  background-color: #fff;
+  min-height: 55rem;
+  background-color: rgba(red, 0, 0, 0.5);
   width: min(42.8rem, 90%);
   text-align: center;
   border-radius: 0.6rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
-  padding: 4.8rem 6.4rem 6.4rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +41,7 @@ main {
 main h1,
 h2,
 p {
-  color: #34355b;
+  color: #fff;
 }
 
 .screen1 {
@@ -67,6 +68,7 @@ main .screen1 h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 90%;
   gap: 1.7rem;
   width: min(30rem, 90%);
   margin: 0 auto;
